@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    }
+.bg-block{
+    background: url(../img/city.svg);
+    height: 442px;
+    width: 100%;
+}
+.main-text {
+    width: 1170px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.text {
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+.separator {
+    width: 170px;
+    height: 1px;
+    margin: 0px auto; 
+    
+}
+.separator--red-color {
+    background-color:  rgba(255, 255, 255, 1);
+}
+.second-text {
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.main-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+.button-download {
+    width: 370px;
+    height: 50px;
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.button-download:hover {
+    width: 400px;
+    height: 70px;
+    background: orange;
+    border: 2px solid rgba(255, 255, 255, 1);
+    color: rgb(182, 10, 10);
+    
+}
